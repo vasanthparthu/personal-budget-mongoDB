@@ -1,0 +1,36 @@
+{
+  "name": "personal-budget",
+  "version": "1.0.0",
+  "description": "This is a personal budget application",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js",
+    "dev": "nodemon server.js",
+    "Vasanth": "echo 'Helo world'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vasanthparthu/personal-budget-mongoDB.git"
+  },
+  "keywords": [
+    "Financial",
+    "Management",
+    "cash"
+  ],
+  "author": "Vasanth parthu Aduvala",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vasanthparthu/personal-budget-mongoDB/issues"
+  },
+  "homepage": "https://github.com/vasanthparthu/personal-budget-mongoDB#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "mongodb": "^4.17.1",
+    "mongoose": "^7.6.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.1"
+  }
+}
