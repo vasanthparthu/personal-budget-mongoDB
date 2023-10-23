@@ -13,7 +13,9 @@ const mongoose = require('mongoose')
 const budgetModel = require('./models/budget_schema')
 let url = 'mongodb://127.0.0.1:27017/budgetdatabase';
 
-app.get('/', (req, res) => {
+app.use('/', express.static('public'));
+
+app.get('/hello', (req, res) => {
     res.send('Hello world');
 });
 app.get("/budget", (req, res) => {
